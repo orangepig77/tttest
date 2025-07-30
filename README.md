@@ -97,134 +97,38 @@ jrzizhi/
 │   └── style.css          # 全局样式
 ├── index.html             # HTML 模板
 ├── package.json           # 项目配置
-├── vite.config.js         # Vite 配置
-├── tailwind.config.js     # Tailwind 配置
-├── postcss.config.js      # PostCSS 配置
-└── README.md              # 项目说明
 ```
 
-## 功能特性
+## 部署指南
 
-### 响应式设计
-- 移动端优先的设计理念
-- 断点：sm (640px), md (768px), lg (1024px), xl (1280px)
-- 流畅的布局适配
+### Vercel部署（推荐）
 
-### 表单验证
-- 实时表单验证
-- 自定义验证规则
-- 错误提示显示
-- 验证码功能
+1. 注册 [Vercel](https://vercel.com)
+2. 连接GitHub仓库
+3. 自动部署，获得域名
 
-### 交互体验
-- 平滑的过渡动画
-- 悬停效果
-- 加载状态
-- 用户反馈
+### 其他部署选项
 
-### 性能优化
-- 组件懒加载
-- 图片优化
-- 代码分割
-- 缓存策略
+- **Netlify**: 免费、功能丰富
+- **GitHub Pages**: 简单易用
+- **传统服务器**: 完全控制
 
-## 自定义配置
+## SEO优化
 
-### 主题颜色
+项目已包含完整的SEO优化配置：
 
-在 `tailwind.config.js` 中修改主题颜色：
+- ✅ Meta标签优化
+- ✅ 结构化数据
+- ✅ Sitemap.xml
+- ✅ Robots.txt
+- ✅ Open Graph标签
+- ✅ 百度统计代码
 
-```javascript
-theme: {
-  extend: {
-    colors: {
-      primary: {
-        50: '#eff6ff',
-        100: '#dbeafe',
-        500: '#3b82f6',
-        600: '#2563eb',
-        700: '#1d4ed8',
-      }
-    }
-  }
-}
-```
+## 联系信息
 
-### 添加新页面
-
-1. 在 `src/views/` 目录下创建新的 Vue 组件
-2. 在 `src/main.js` 中添加路由配置
-3. 在 `src/App.vue` 中添加导航链接
-
-## 部署说明
-
-### 静态部署
-
-构建项目后，将 `dist` 目录部署到任何静态文件服务器。
-
-### Nginx 配置示例
-
-```nginx
-server {
-    listen 80;
-    server_name your-domain.com;
-    root /path/to/dist;
-    index index.html;
-    
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
-}
-```
-
-## 浏览器支持
-
-- Chrome >= 87
-- Firefox >= 78
-- Safari >= 14
-- Edge >= 88
-
-## 开发指南
-
-### 代码规范
-
-- 使用 Vue 3 Composition API
-- 遵循 ESLint 规则
-- 组件命名使用 PascalCase
-- 文件命名使用 kebab-case
-
-### 组件开发
-
-- 使用 `<script setup>` 语法
-- 响应式数据使用 `ref` 和 `reactive`
-- 计算属性使用 `computed`
-- 生命周期使用 `onMounted` 等
-
-### 样式开发
-
-- 优先使用 Tailwind CSS 类名
-- 自定义样式使用 `@layer` 指令
-- 响应式设计使用 Tailwind 断点
-- 动画使用 CSS transitions
-
-## 贡献指南
-
-1. Fork 项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 打开 Pull Request
+- 电话：18156018435
+- 邮箱：contact@your-domain.com
 
 ## 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
-
-## 联系方式
-
-- 项目维护者：[您的姓名]
-- 邮箱：[your-email@example.com]
-- 项目地址：[项目 GitHub 地址]
-
----
-
-感谢使用我们的企业官网模板！如果您有任何问题或建议，请随时联系我们。 
+MIT License
