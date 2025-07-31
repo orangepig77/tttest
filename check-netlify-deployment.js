@@ -1,4 +1,4 @@
-const https = require('https');
+import https from 'https';
 
 console.log('🔍 Netlify 部署状态检查工具\n');
 
