@@ -6,6 +6,30 @@
   NODE_VERSION = "18"
   NPM_FLAGS = "--legacy-peer-deps"
 
+# 自定义域名配置
+[context.production.environment]
+  CUSTOM_DOMAIN = "ahhonglan.com"
+
+# 域名重定向配置
+[[redirects]]
+  from = "https://ahhl.netlify.app/*"
+  to = "https://ahhonglan.com/:splat"
+  status = 301
+  force = true
+
+# www 子域名重定向到主域名
+[[redirects]]
+  from = "https://www.ahhonglan.com/*"
+  to = "https://ahhonglan.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.ahhonglan.com/*"
+  to = "https://ahhonglan.com/:splat"
+  status = 301
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
