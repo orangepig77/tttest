@@ -28,7 +28,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">公司地址</h3>
-                  <p class="text-gray-600">安徽省合肥市xxx大厦<br />A座15层1501室</p>
+                  <p class="text-gray-600">合肥市瑶海区长江东大街闽商国贸A座916</p>
                 </div>
               </div>
 
@@ -40,7 +40,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">联系电话</h3>
-                  <p class="text-gray-600">18156018435</p>
+                  <p class="text-gray-600">18019930968</p>
                 </div>
               </div>
 

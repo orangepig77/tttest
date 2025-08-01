@@ -190,57 +190,62 @@ export default {
 
     const slides = ref([
       {
-        title: '安徽宏澜 - 专业企业服务',
-        description: '为安徽企业提供全方位的数字化解决方案，助力企业转型升级',
-        image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
+        title: '安徽宏澜 - 专业建筑服务',
+        description: '为安徽企业提供全方位的建筑服务解决方案，包括工程管理、招投标代理等专业服务',
+        image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
       },
       {
-        title: '技术创新驱动发展',
-        description: '运用前沿技术，为安徽企业打造高效、智能的业务系统',
-        image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
+        title: '合肥天鹅湖与广电中心',
+        description: '合肥市标志性建筑群，展现现代化城市建设成就',
+        image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
       },
       {
-        title: '客户至上服务理念',
-        description: '以客户需求为中心，为安徽企业提供个性化、专业化的服务体验',
-        image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80'
+        title: '黄山美景',
+        description: '安徽黄山，世界文化与自然双重遗产，中华十大名山之一',
+        image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
+      },
+      {
+        title: '巢湖风光',
+        description: '中国五大淡水湖之一，安徽重要的生态资源',
+        image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
       }
     ])
 
     const services = ref([
       {
         id: 1,
-        title: '软件开发',
-        description: '定制化软件开发，满足企业特定需求',
+        title: '工程管理服务',
+        description: '专业的工程项目管理，确保项目高效完成',
         icon: ComputerDesktopIcon
       },
       {
         id: 2,
-        title: '数据分析',
-        description: '深度数据分析，助力企业决策优化',
+        title: '招投标代理服务',
+        description: '专业的招投标代理，为企业提供合规高效的投标服务',
         icon: ChartBarIcon
       },
       {
         id: 3,
-        title: '系统集成',
-        description: '多系统整合，提升业务效率',
+        title: '企业管理咨询',
+        description: '为企业提供专业的管理咨询服务',
         icon: CogIcon
       },
       {
         id: 4,
-        title: '云服务',
-        description: '云端部署方案，安全可靠',
+        title: '对外承包工程',
+        description: '承接各类对外工程承包项目',
         icon: GlobeAltIcon
       },
       {
         id: 5,
-        title: '安全防护',
-        description: '全方位安全防护，保障数据安全',
+        title: '工程造价咨询',
+        description: '专业的工程造价咨询服务',
         icon: ShieldCheckIcon
       },
       {
         id: 6,
-        title: '技术咨询',
-        description: '专业技术咨询，指导企业数字化转型',
+        title: '知识产权服务',
+        description: '商标代理、版权代理等知识产权服务',
         icon: UserGroupIcon
       }
     ])
@@ -255,21 +260,21 @@ export default {
     const cases = ref([
       {
         id: 1,
-        title: '安徽某大型制造企业数字化转型',
-        description: '帮助安徽制造企业实现生产流程数字化，提升效率30%',
-        industry: '制造业'
+        title: '合肥市重点工程项目管理',
+        description: '为合肥市重点工程项目提供专业的管理服务，确保项目按期完成',
+        industry: '工程建设'
       },
       {
         id: 2,
-        title: '安徽电商平台系统开发',
-        description: '为安徽知名电商企业开发全渠道销售系统',
-        industry: '电商'
+        title: '安徽某大型企业招投标代理',
+        description: '为安徽知名企业提供招投标代理服务，成功中标多个重大项目',
+        industry: '招投标'
       },
       {
         id: 3,
-        title: '安徽金融风控系统',
-        description: '为安徽金融机构构建智能风控系统，降低风险率50%',
-        industry: '金融'
+        title: '工程造价咨询服务',
+        description: '为多个工程项目提供专业的造价咨询服务，控制成本效果显著',
+        industry: '造价咨询'
       }
     ])
 
