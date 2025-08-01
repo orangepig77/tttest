@@ -72,7 +72,7 @@
             我们的服务
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            为您提供全方位的专业服务，助力企业数字化转型
+            为安徽企业提供全方位的专业服务，助力企业数字化转型
           </p>
         </div>
         
@@ -119,7 +119,7 @@
             成功案例
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            我们已为众多企业提供优质服务，助力他们实现业务增长
+            我们已为众多安徽企业提供优质服务，助力他们实现业务增长
           </p>
         </div>
         
@@ -190,18 +190,18 @@ export default {
 
     const slides = ref([
       {
-        title: '专业的企业服务',
-        description: '为企业提供全方位的数字化解决方案，助力企业转型升级',
+        title: '安徽宏澜 - 专业企业服务',
+        description: '为安徽企业提供全方位的数字化解决方案，助力企业转型升级',
         image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
       },
       {
-        title: '技术创新驱动',
-        description: '运用前沿技术，为企业打造高效、智能的业务系统',
+        title: '技术创新驱动发展',
+        description: '运用前沿技术，为安徽企业打造高效、智能的业务系统',
         image: 'https://images.unsplash.com/photo-1518186285589-2f7649de83e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
       },
       {
-        title: '客户至上理念',
-        description: '以客户需求为中心，提供个性化、专业化的服务体验',
+        title: '客户至上服务理念',
+        description: '以客户需求为中心，为安徽企业提供个性化、专业化的服务体验',
         image: 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2071&q=80'
       }
     ])
@@ -255,20 +255,20 @@ export default {
     const cases = ref([
       {
         id: 1,
-        title: '某大型制造企业数字化转型',
-        description: '帮助客户实现生产流程数字化，提升效率30%',
+        title: '安徽某大型制造企业数字化转型',
+        description: '帮助安徽制造企业实现生产流程数字化，提升效率30%',
         industry: '制造业'
       },
       {
         id: 2,
-        title: '电商平台系统开发',
-        description: '为知名电商企业开发全渠道销售系统',
+        title: '安徽电商平台系统开发',
+        description: '为安徽知名电商企业开发全渠道销售系统',
         industry: '电商'
       },
       {
         id: 3,
-        title: '金融风控系统',
-        description: '构建智能风控系统，降低风险率50%',
+        title: '安徽金融风控系统',
+        description: '为安徽金融机构构建智能风控系统，降低风险率50%',
         industry: '金融'
       }
     ])

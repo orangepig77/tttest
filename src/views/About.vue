@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">关于我们</h1>
         <p class="text-xl text-primary-100 max-w-3xl mx-auto">
-          专业的技术团队，丰富的行业经验，为您提供最优质的服务
+          专业的技术团队，丰富的行业经验，为安徽企业提供最优质的服务
         </p>
       </div>
     </section>
@@ -19,13 +19,13 @@
               公司简介
             </h2>
             <p class="text-lg text-gray-600 mb-6">
-              我们是一家专注于企业数字化转型的技术服务公司，致力于为客户提供全方位的技术解决方案。
+              安徽宏澜是一家专注于企业数字化转型的技术服务公司，致力于为安徽企业提供全方位的技术解决方案。
             </p>
             <p class="text-lg text-gray-600 mb-6">
-              自成立以来，我们已成功服务超过500家企业客户，涵盖制造业、金融、电商、教育等多个行业。
+              自成立以来，我们已成功服务超过500家安徽企业客户，涵盖制造业、金融、电商、教育等多个行业。
             </p>
             <p class="text-lg text-gray-600 mb-8">
-              我们的使命是通过技术创新，帮助企业提升效率、降低成本、实现可持续发展。
+              我们的使命是通过技术创新，帮助安徽企业提升效率、降低成本、实现可持续发展。
             </p>
             <div class="grid grid-cols-2 gap-6">
               <div class="text-center">
@@ -53,7 +53,7 @@
             核心价值观
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            我们的价值观指导着我们的每一个决策和行动
+            安徽宏澜的价值观指导着我们的每一个决策和行动
           </p>
         </div>
         
@@ -81,7 +81,7 @@
             核心团队
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            由资深技术专家组成的专业团队，为您提供最优质的服务
+            由资深技术专家组成的专业团队，为安徽企业提供最优质的服务
           </p>
         </div>
         
@@ -122,7 +122,7 @@
             资质证书
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            我们拥有多项行业认证和资质证书，确保服务的专业性和可靠性
+            安徽宏澜拥有多项行业认证和资质证书，确保服务的专业性和可靠性
           </p>
         </div>
         
@@ -150,7 +150,7 @@
             发展历程
           </h2>
           <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-            见证我们的成长历程和重要里程碑
+            见证安徽宏澜的成长历程和重要里程碑
           </p>
         </div>
         
@@ -229,37 +229,37 @@ export default {
         id: 1,
         name: '张总',
         position: '创始人 & CEO',
-        description: '拥有15年技术管理经验，曾任职于多家知名互联网公司'
+        description: '拥有15年技术管理经验，曾任职于多家知名互联网公司，专注于安徽地区企业发展'
       },
       {
         id: 2,
         name: '李总监',
         position: '技术总监',
-        description: '资深架构师，专注于企业级系统设计和开发'
+        description: '资深架构师，专注于安徽企业级系统设计和开发'
       },
       {
         id: 3,
         name: '王经理',
         position: '产品经理',
-        description: '10年产品设计经验，擅长用户需求分析和产品规划'
+        description: '10年产品设计经验，擅长安徽企业用户需求分析和产品规划'
       },
       {
         id: 4,
         name: '陈工程师',
         position: '高级开发工程师',
-        description: '全栈开发专家，精通前后端技术栈'
+        description: '全栈开发专家，精通前后端技术栈，为安徽企业提供技术支持'
       },
       {
         id: 5,
         name: '刘设计师',
         position: 'UI/UX设计师',
-        description: '专业的设计师，注重用户体验和视觉美感'
+        description: '专业的设计师，注重用户体验和视觉美感，服务安徽企业'
       },
       {
         id: 6,
         name: '赵顾问',
         position: '技术顾问',
-        description: '行业资深专家，为企业提供技术咨询服务'
+        description: '行业资深专家，为安徽企业提供技术咨询服务'
       }
     ])
 
@@ -295,15 +295,15 @@ export default {
         id: 1,
         year: '2014年',
         title: '公司成立',
-        description: '公司正式成立，开始专注于企业技术服务',
-        detail: '在北京成立，组建核心团队，确定发展方向'
+        description: '安徽宏澜正式成立，开始专注于企业技术服务',
+        detail: '在安徽成立，组建核心团队，确定发展方向'
       },
       {
         id: 2,
         year: '2016年',
         title: '业务扩展',
-        description: '服务客户突破100家，业务范围不断扩大',
-        detail: '成功服务多个行业客户，建立稳定的客户关系'
+        description: '服务安徽客户突破100家，业务范围不断扩大',
+        detail: '成功服务多个安徽行业客户，建立稳定的客户关系'
       },
       {
         id: 3,
@@ -316,15 +316,15 @@ export default {
         id: 4,
         year: '2020年',
         title: '规模扩大',
-        description: '团队规模达到50人，服务客户超过500家',
-        detail: '获得多项行业认证，成为行业领先企业'
+        description: '团队规模达到50人，服务安徽客户超过500家',
+        detail: '获得多项行业认证，成为安徽地区领先企业'
       },
       {
         id: 5,
         year: '2024年',
         title: '持续发展',
-        description: '继续深耕技术领域，为客户创造更大价值',
-        detail: '推出新一代产品，引领行业技术发展'
+        description: '继续深耕技术领域，为安徽企业创造更大价值',
+        detail: '推出新一代产品，引领安徽地区技术发展'
       }
     ])
 

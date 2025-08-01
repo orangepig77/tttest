@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">产品中心</h1>
         <p class="text-xl text-primary-100 max-w-3xl mx-auto">
-          为您提供全方位的产品解决方案，满足不同行业和规模企业的需求
+          为安徽企业提供全方位的产品解决方案，满足不同行业和规模企业的需求
         </p>
       </div>
     </section>

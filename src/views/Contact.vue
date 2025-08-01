@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">联系我们</h1>
         <p class="text-xl text-primary-100 max-w-3xl mx-auto">
-          我们期待与您合作，为您提供专业的技术解决方案
+          我们期待与安徽企业合作，为您提供专业的技术解决方案
         </p>
       </div>
     </section>
@@ -28,7 +28,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">公司地址</h3>
-                  <p class="text-gray-600">北京市朝阳区xxx大厦<br />A座15层1501室</p>
+                  <p class="text-gray-600">安徽省合肥市xxx大厦<br />A座15层1501室</p>
                 </div>
               </div>
 
@@ -52,7 +52,7 @@
                 </div>
                 <div>
                   <h3 class="text-lg font-semibold text-gray-900 mb-2">邮箱地址</h3>
-                  <p class="text-gray-600">info@company.com<br />support@company.com</p>
+                  <p class="text-gray-600">info@ahhonglan.com<br />support@ahhonglan.com</p>
                 </div>
               </div>
 
