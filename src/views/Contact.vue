@@ -5,7 +5,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-4">联系我们</h1>
         <p class="text-xl text-primary-100 max-w-3xl mx-auto">
-          我们期待与安徽企业合作，为您提供专业的技术解决方案
+          我们期待与建筑业企业合作，为您提供专业的建筑服务解决方案
         </p>
       </div>
     </section>
@@ -164,10 +164,10 @@
                   :class="{ 'border-red-500': errors.service }"
                 >
                   <option value="">请选择服务类型</option>
-                  <option value="software">软件开发</option>
-                  <option value="cloud">云服务</option>
-                  <option value="security">安全防护</option>
-                  <option value="consulting">技术咨询</option>
+                  <option value="qualification">建筑资质办理</option>
+                  <option value="management">工程管理</option>
+                  <option value="consulting">企业管理咨询</option>
+                  <option value="personnel">技术人员配备</option>
                   <option value="other">其他服务</option>
                 </select>
                 <p v-if="errors.service" class="mt-1 text-sm text-red-600">{{ errors.service }}</p>
@@ -313,23 +313,23 @@ export default {
     const faqs = ref([
       {
         id: 1,
-        question: '项目开发周期一般是多久？',
-        answer: '项目周期根据具体需求而定，一般小型项目1-3个月，中型项目3-6个月，大型项目6-12个月。'
+        question: '资质办理需要多长时间？',
+        answer: '资质办理时间根据具体类型而定，一般新办资质3-6个月，升级资质2-4个月，我们会全程跟踪办理进度。'
       },
       {
         id: 2,
-        question: '是否提供售后服务？',
-        answer: '是的，我们提供1年的免费售后服务，包括系统维护、bug修复、技术支持等。'
+        question: '是否提供工程管理服务？',
+        answer: '是的，我们提供专业的工程管理服务，包括项目管理、施工管理等，确保项目按期完成。'
       },
       {
         id: 3,
-        question: '如何保证项目质量？',
-        answer: '我们采用严格的质量控制流程，包括需求评审、代码审查、测试验证等环节。'
+        question: '如何保证服务质量？',
+        answer: '我们拥有专业的服务团队和丰富的行业经验，严格的质量控制流程确保服务质量。'
       },
       {
         id: 4,
-        question: '是否支持定制化开发？',
-        answer: '完全支持，我们根据客户的具体需求进行定制化开发，确保满足业务需求。'
+        question: '是否提供技术人员配备服务？',
+        answer: '是的，我们为企业配备工程必要的建造师、工程师等专业技术人员，满足项目需求。'
       }
     ])
 

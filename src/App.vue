@@ -8,9 +8,9 @@
           <div class="flex-shrink-0">
             <router-link to="/" class="flex items-center">
               <div class="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
-                <span class="text-white font-bold text-lg">企</span>
+                <span class="text-white font-bold text-lg">宏</span>
               </div>
-              <span class="ml-2 text-xl font-bold text-gray-900">企业官网</span>
+              <span class="ml-2 text-xl font-bold text-gray-900">安徽宏澜</span>
             </router-link>
           </div>
 
@@ -29,7 +29,7 @@
                 class="text-gray-700 hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
                 active-class="text-primary-600"
               >
-                产品中心
+                服务项目
               </router-link>
               <router-link 
                 to="/about" 
@@ -91,7 +91,7 @@
             active-class="text-primary-600"
             @click="mobileMenuOpen = false"
           >
-            产品中心
+            服务项目
           </router-link>
           <router-link 
             to="/about" 
@@ -123,14 +123,14 @@
       <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 class="text-lg font-semibold mb-4">企业官网</h3>
-            <p class="text-gray-400">专业的企业服务提供商，为您提供全方位的解决方案</p>
+            <h3 class="text-lg font-semibold mb-4">安徽宏澜</h3>
+            <p class="text-gray-400">专业的建筑业服务企业，为建筑业企业提供资质办理、工程管理等专业服务</p>
           </div>
           <div>
             <h4 class="text-md font-semibold mb-4">快速链接</h4>
             <ul class="space-y-2">
               <li><router-link to="/" class="text-gray-400 hover:text-white transition-colors">首页</router-link></li>
-              <li><router-link to="/products" class="text-gray-400 hover:text-white transition-colors">产品中心</router-link></li>
+              <li><router-link to="/products" class="text-gray-400 hover:text-white transition-colors">服务项目</router-link></li>
               <li><router-link to="/about" class="text-gray-400 hover:text-white transition-colors">关于我们</router-link></li>
               <li><router-link to="/contact" class="text-gray-400 hover:text-white transition-colors">联系我们</router-link></li>
             </ul>
@@ -138,9 +138,9 @@
           <div>
             <h4 class="text-md font-semibold mb-4">联系方式</h4>
             <ul class="space-y-2 text-gray-400">
-              <li>电话：18156018435</li>
-              <li>邮箱：info@company.com</li>
-              <li>地址：北京市朝阳区xxx大厦</li>
+              <li>电话：18019930968</li>
+              <li>邮箱：info@ahhonglan.com</li>
+              <li>地址：合肥市瑶海区长江东大街闽商国贸A座916</li>
             </ul>
           </div>
           <div>
@@ -162,7 +162,7 @@
           </div>
         </div>
         <div class="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>&copy; 2024 企业官网. 保留所有权利.</p>
+          <p>&copy; 2024 安徽宏澜. 保留所有权利.</p>
         </div>
       </div>
     </footer>

@@ -19,13 +19,13 @@
               公司简介
             </h2>
             <p class="text-lg text-gray-600 mb-6">
-              安徽宏澜是一家专注于企业数字化转型的技术服务公司，致力于为安徽企业提供全方位的技术解决方案。
+              安徽宏澜是一家专为建筑业公司服务的企业，经营范围包括企业管理、企业管理咨询、工程管理服务、信息咨询服务等。
             </p>
             <p class="text-lg text-gray-600 mb-6">
-              自成立以来，我们已成功服务超过500家安徽企业客户，涵盖制造业、金融、电商、教育等多个行业。
+              主要营业项目是为建筑业企业办理建筑资质，以及为企业配备工程必要的建造师工程师专业技术人员等。服务安徽省5000+企业，有众多新办资质、升级资质成功案例。
             </p>
             <p class="text-lg text-gray-600 mb-8">
-              我们的使命是通过技术创新，帮助安徽企业提升效率、降低成本、实现可持续发展。
+              我们的使命是通过专业的服务，帮助建筑业企业提升竞争力，实现可持续发展。
             </p>
             <div class="grid grid-cols-2 gap-6">
               <div class="text-center">
@@ -200,26 +200,26 @@ export default {
     const values = ref([
       {
         id: 1,
-        title: '客户至上',
-        description: '始终以客户需求为中心，提供最优质的服务体验',
+        title: '专业服务',
+        description: '专注于建筑业服务，提供专业的资质办理、招投标代理等服务',
         icon: HeartIcon
       },
       {
         id: 2,
-        title: '创新驱动',
-        description: '持续技术创新，引领行业发展方向',
+        title: '诚信经营',
+        description: '以诚信为本，为客户提供可靠的服务保障',
         icon: LightBulbIcon
       },
       {
         id: 3,
         title: '质量保证',
-        description: '严格的质量控制体系，确保项目交付质量',
+        description: '严格的质量控制体系，确保服务质量和项目交付',
         icon: ShieldCheckIcon
       },
       {
         id: 4,
-        title: '团队协作',
-        description: '高效的团队协作，实现项目目标',
+        title: '客户至上',
+        description: '始终以客户需求为中心，提供最优质的服务体验',
         icon: UserGroupIcon
       }
     ])
@@ -229,63 +229,63 @@ export default {
         id: 1,
         name: '张总',
         position: '创始人 & CEO',
-        description: '拥有15年技术管理经验，曾任职于多家知名互联网公司，专注于安徽地区企业发展'
+        description: '拥有15年建筑业服务经验，专注于建筑资质办理和工程管理服务'
       },
       {
         id: 2,
         name: '李总监',
-        position: '技术总监',
-        description: '资深架构师，专注于安徽企业级系统设计和开发'
+        position: '业务总监',
+        description: '资深建筑行业专家，专注于建筑资质办理和升级服务'
       },
       {
         id: 3,
         name: '王经理',
-        position: '产品经理',
-        description: '10年产品设计经验，擅长安徽企业用户需求分析和产品规划'
+        position: '工程管理经理',
+        description: '10年工程管理经验，擅长为企业提供专业的工程管理服务'
       },
       {
         id: 4,
         name: '陈工程师',
-        position: '高级开发工程师',
-        description: '全栈开发专家，精通前后端技术栈，为安徽企业提供技术支持'
+        position: '工程管理专家',
+        description: '资深工程师，专注于工程管理服务和技术人员配备'
       },
       {
         id: 5,
-        name: '刘设计师',
-        position: 'UI/UX设计师',
-        description: '专业的设计师，注重用户体验和视觉美感，服务安徽企业'
+        name: '刘顾问',
+        position: '企业管理顾问',
+        description: '专业的企业管理咨询师，为建筑业企业提供管理咨询服务'
       },
       {
         id: 6,
-        name: '赵顾问',
-        position: '技术顾问',
-        description: '行业资深专家，为安徽企业提供技术咨询服务'
+        name: '赵专员',
+        position: '客户服务专员',
+        description: '专业的客户服务，确保客户获得最佳的服务体验'
       }
     ])
 
     const certificates = ref([
       {
         id: 1,
-        name: 'ISO9001认证',
-        description: '质量管理体系认证',
+        name: '建筑资质代理证书',
+        description: '专业建筑资质办理代理资质',
         icon: CheckBadgeIcon
       },
       {
         id: 2,
-        name: '高新技术企业',
-        description: '国家高新技术企业认定',
+        name: '工程管理资质',
+        description: '工程管理服务专业资质',
         icon: StarIcon
       },
       {
         id: 3,
-        name: '软件企业认定',
-        description: '软件企业认定证书',
+        name: '企业管理咨询资质',
+        description: '企业管理咨询服务专业资质',
         icon: AcademicCapIcon
       },
       {
         id: 4,
-        name: '行业奖项',
-        description: '多项行业技术奖项',
+        name: '行业认证',
+        description: '建筑业服务行业认证',
         icon: TrophyIcon
       }
     ])
@@ -295,36 +295,36 @@ export default {
         id: 1,
         year: '2014年',
         title: '公司成立',
-        description: '安徽宏澜正式成立，开始专注于企业技术服务',
-        detail: '在安徽成立，组建核心团队，确定发展方向'
+        description: '安徽宏澜正式成立，开始专注于建筑业服务',
+        detail: '在安徽成立，组建专业团队，确定建筑业服务发展方向'
       },
       {
         id: 2,
         year: '2016年',
         title: '业务扩展',
-        description: '服务安徽客户突破100家，业务范围不断扩大',
-        detail: '成功服务多个安徽行业客户，建立稳定的客户关系'
+        description: '服务安徽建筑企业突破1000家，业务范围不断扩大',
+        detail: '成功为多家建筑企业办理资质，建立稳定的客户关系'
       },
       {
         id: 3,
         year: '2018年',
-        title: '技术升级',
-        description: '引入新技术栈，提升技术实力',
-        detail: '采用微服务架构，提升系统性能和可扩展性'
+        title: '服务升级',
+        description: '引入新的服务模式，提升服务质量',
+        detail: '推出全方位的建筑业服务，包括资质办理、工程管理等'
       },
       {
         id: 4,
         year: '2020年',
         title: '规模扩大',
-        description: '团队规模达到50人，服务安徽客户超过500家',
-        detail: '获得多项行业认证，成为安徽地区领先企业'
+        description: '服务安徽建筑企业超过3000家，成功案例众多',
+        detail: '获得多项行业认证，成为安徽地区领先的建筑业服务企业'
       },
       {
         id: 5,
         year: '2024年',
         title: '持续发展',
-        description: '继续深耕技术领域，为安徽企业创造更大价值',
-        detail: '推出新一代产品，引领安徽地区技术发展'
+        description: '继续深耕建筑业服务领域，为安徽建筑企业创造更大价值',
+        detail: '服务企业超过5000家，成为安徽建筑业服务标杆企业'
       }
     ])
 
